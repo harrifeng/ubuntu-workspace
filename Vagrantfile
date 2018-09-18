@@ -5,7 +5,7 @@ Vagrant.configure("2") do |config|
     app.vm.provider "virtualbox" do |vb|
       vb.gui = false
       vb.memory = "1024"
-      vb.cpus = 1
+      vb.cpus = 2
     end
     app.vm.hostname = "#{hostname}"
     app.vm.box = "bento/ubuntu-18.04"
