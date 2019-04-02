@@ -20,5 +20,7 @@ deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted
 # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted universe multiverse
 " | sudo tee /etc/apt/sources.list
 
+sudo apt update
+sudo apt install -y emacs git silversearcher-ag golang
 
 echo "<----------finishing provision--------------->"
