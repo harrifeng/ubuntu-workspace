@@ -17,6 +17,6 @@ deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted
 " | sudo tee /etc/apt/sources.list
 
 sudo apt update
-sudo apt install -y emacs git silversearcher-ag golang lrzsz python-pip
+sudo apt install -y emacs git silversearcher-ag lrzsz python-pip python3-distutils tmux
 
 echo "<----------finishing provision--------------->"
