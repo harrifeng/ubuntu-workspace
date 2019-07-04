@@ -4,7 +4,7 @@ Vagrant.configure("2") do |config|
   config.vm.define "#{hostname}" do |app|
     app.vm.provider "virtualbox" do |vb|
       vb.gui = false
-      vb.memory = "4096"
+      vb.memory = "8192"
       vb.cpus = 4
     end
     app.vm.hostname = "#{hostname}"
