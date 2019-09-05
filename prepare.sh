@@ -1,4 +1,4 @@
-echo "DNS1=8.8.8.8" | sudo tee -a /etc/network/interface
+echo "DNS1=8.8.8.8" | sudo tee -a /etc/network/interfaces
 mkdir -p /home/vagrant/github
 
 DOT_FILES='/home/vagrant/github/dotfiles'
