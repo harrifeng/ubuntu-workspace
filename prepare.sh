@@ -23,6 +23,6 @@ deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted unive
 " | sudo tee /etc/apt/sources.list
 
 sudo apt update
-sudo apt install -y emacs git silversearcher-ag lrzsz python-pip python3-distutils tmux
+sudo apt install -y emacs git silversearcher-ag lrzsz python-pip python3-distutils tmux libmysqlclient-dev
 
 echo "<----------finishing provision--------------->"
