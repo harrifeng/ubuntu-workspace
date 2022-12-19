@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
       vb.cpus = 2
     end
     app.vm.hostname = "#{hostname}"
-    app.vm.box = "bento/ubuntu-18.04"
+    app.vm.box = "bento/ubuntu-22.04"
     app.vm.box_check_update = false
     app.ssh.insert_key = false
     app.ssh.private_key_path = ['~/.vagrant.d/insecure_private_key']
